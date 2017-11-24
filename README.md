@@ -1,16 +1,19 @@
 
 # docker-commands
 
+* docker version
+* docker info
 * docker ps
 * docker ps -a
 * docker run  => "run a command in new container" "create container from image"
-* docker run -it "image name"
-* docker run -it --name "our name" "image name"
+* docker run -it "image name interactive"
+* docker run -it --name "our name" "image name interactive"
+* docker run -p 8080:8080 -p 50000:50000 jenkins "run a container  - p map the port number of the internal Docker image to our main server" 
 * docker rm "container id" or "container name"
 * docker help
 * docker help "command name"
 * docker images
-* docker pull "image name"
+* docker pull "image name" "pull an image"
 * docker ps -a -q "list only container id"
 * docker rm $(sudo docker ps -aq) "remove all containers"
 * docker search ubuntu
