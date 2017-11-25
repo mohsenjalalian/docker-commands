@@ -5,14 +5,17 @@
 * docker info
 * docker ps
 * docker ps -a
-* docker run  => "run a command in new container" "create container from image"
+* docker run  => "run a command in new container" "create container from image" "if not exist download it"
 * docker run -it "image name interactive"
+* docker run "image name" –it /bin/bash  => "/bin/bash is used to run the bash shell once image is up and running"
 * docker run -it --name "our name" "image name interactive"
 * docker run -p 8080:8080 -p 50000:50000 jenkins "run a container  - p map the port number of the internal Docker image to our main server" 
 * docker rm "container id" or "container name"
 * docker help
 * docker help "command name"
 * docker images
+* docker images -q "return only image id"
+* docker history ImageID 
 * docker pull "image name" "pull an image"
 * docker ps -a -q "list only container id"
 * docker rm $(sudo docker ps -aq) "remove all containers"
@@ -29,7 +32,7 @@
 * docker volume inspect data "display information about volume"
 * docker run -d --name m_mongo -v data:/data/db mongo "mount data volume to /data/db path of mongo container"
 * docker logs m_mongo "log of a container"
-* docker inspect m_mongo "information container"
+* docker inspect m_mongo "information container or image"
 * docker network ls "list networks"
 * docker network inspect bridge "info"
 * docker run -d -v data:/data/db --name m_mongo -p 28001:27017 mongo "run a m_mongo container from mongo image as deamon(- d) with volume(- v) and with bind port(- p)" 
