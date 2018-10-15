@@ -1,11 +1,11 @@
 
 # docker-commands
 
-* docker version
-* docker info
-* docker ps
-* docker ps -a
-* docker run  => "run a command in new container" "create container from image" "if not exist download it"
+* docker version => "Display docker version"
+* docker info => "Display docker system info"
+* docker ps => "List running containers"
+* docker ps -a => "List all containers"
+* docker run  => "run a command in new container" "create and container from image" "if not exist download it"
 * docker run -it "image name interactive"
 * docker run "image name" –it /bin/bash  => "/bin/bash is used to run the bash shell once image is up and running"
 * docker run -it --name "our name" "image name interactive"
