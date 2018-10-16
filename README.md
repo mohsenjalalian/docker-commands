@@ -6,18 +6,18 @@
 * docker ps => "List running containers"
 * docker ps -a => "List all containers"
 * docker run  => "run a command in new container" "create and container from image" "if not exist download it"
-* docker run -it "image name interactive"
+* docker run -it  => "run a container from an image interactive"
 * docker run "image name" –it /bin/bash  => "/bin/bash is used to run the bash shell once image is up and running"
-* docker run -it --name "our name" "image name interactive"
+* docker run -it --name "our name" => "run a container from an image interactive with given name"
 * docker run -p 8080:8080 -p 50000:50000 jenkins "run a container  - p map the port number of the internal Docker image to our main server" 
-* docker rm "container id" or "container name"
-* docker help
-* docker help "command name"
+* docker rm "container id" or "container name" => "remove a container"
+* docker --help
+* docker --help "command name"
 * docker images
 * docker images -q "return only image id"
 * docker history ImageID 
 * docker pull "image name" "pull an image"
-* docker ps -a -q "list only container id"
+* docker ps -aq "list only container id"
 * docker rm $(sudo docker ps -aq) "remove all containers"
 * docker search ubuntu
 * docker rmi "image name" or "image id"
