@@ -13,14 +13,14 @@
 * docker rm "container id" or "container name" => "remove a container"
 * docker --help
 * docker --help "command name"
-* docker images
-* docker images -q "return only image id"
+* docker images => "list all images"
+* docker images -q => "return only image id"
 * docker history ImageID 
-* docker pull "image name" "pull an image"
+* docker pull "image name" "pull an image from docker hub"
 * docker ps -aq "list only container id"
 * docker rm $(sudo docker ps -aq) "remove all containers"
-* docker search ubuntu
-* docker rmi "image name" or "image id"
+* docker search ubuntu => "search ubuntu in docker hub"
+* docker rmi "image name" or "image id" => "remove an image"
 * docker commit  "container id"(7dbb4486d7f5) centos:mohsen_custom_txtfile  "create image from container"
 * docker save -o centos_mohsen_custom_txtfile.tar.gz centos:mohsen_custom_txtfile "Save one or more images to a tar archive"
 * docker load -i centos_mohsen_custom_txtfile.tar.gz "Load an image from a tar archive or STDIN"
