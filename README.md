@@ -24,7 +24,7 @@
 * docker commit  "container id"(7dbb4486d7f5) centos:mohsen_custom_txtfile  "create image from container"
 * docker save -o centos_mohsen_custom_txtfile.tar.gz centos:mohsen_custom_txtfile "Save one or more images to a tar archive"
 * docker load -i centos_mohsen_custom_txtfile.tar.gz "Load an image from a tar archive or STDIN"
-* docker exec -it mohsen_mongo mongo "Run a command in a running container"
+* docker exec -it mohsen_mongo mongo "Run a command in a running container. here run mongo command"
 * docker exec -it mohsen_mongo /bin/bash  "go to terminal"
 * docker run -d --name mohsen_mongo mongo "run a docker in background"
 * docker volume create --name data "create volume"
@@ -34,7 +34,7 @@
 * docker logs m_mongo "log of a container"
 * docker inspect m_mongo "information container or image"
 * docker network ls "list networks"
-* docker network inspect bridge "info"
+* docker network inspect bridge "information about bridge network"
 * docker run -d -v data:/data/db --name m_mongo -p 28001:27017 mongo "run a m_mongo container from mongo image as deamon(- d) with volume(- v) and with bind port(- p)" 
 * docker build -t name:tag .=>('current directory search')
 * docker stop => "stop running container"
