@@ -36,7 +36,7 @@
 * docker network ls "list networks"
 * docker network inspect bridge "information about bridge network"
 * docker run -d -v data:/data/db --name m_mongo -p 28001:27017 mongo "run a m_mongo container from mongo image as deamon(- d) with volume(- v) and with bind port(- p)" 
-* docker build -t name:tag .=>('current directory search')
+* docker build -t name:tag .=>('current directory search') "create an image from docker file"
 * docker stop => "stop running container"
 
 * note : in docker we should work with ports or containers and we should not work with ip because it always change
