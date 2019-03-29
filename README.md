@@ -6,6 +6,7 @@
 * docker ps => "List running containers"
 * docker container ls => "List running containers"
 * docker ps -a => "List all containers"
+* docker container ls -a => "List all containers"
 * docker run  => "run a command in new container" "create and container from image" "if not exist download it"
 * docker run -it  => "run a container from an image interactive"
 * docker run "image name" –it /bin/bash  => "/bin/bash is used to run the bash shell once image is up and running"
