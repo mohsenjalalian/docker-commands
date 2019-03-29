@@ -4,6 +4,7 @@
 * docker version => "Display docker version"
 * docker info => "Display docker system info"
 * docker ps => "List running containers"
+* docker container ls => "List running containers"
 * docker ps -a => "List all containers"
 * docker run  => "run a command in new container" "create and container from image" "if not exist download it"
 * docker run -it  => "run a container from an image interactive"
