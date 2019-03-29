@@ -14,10 +14,13 @@
 * docker run -p 8080:8080 jenkins "run a container  - p map the port number of the internal Docker image to our main server" 
 * docker run -d --name mohsen_mongo mongo "run a docker in background"
 * docker run -d -v data:/data/db --name m_mongo -p 28001:27017 mongo "run a m_mongo container from mongo image as deamon(- d) with volume(- v) and with bind port(- p)"
+* docker logs
+* docker top
 * docker rm "container id" or "container name" => "remove a container"
 * docker --help
 * docker --help "command name"
 * docker images => "list all images"
+* docker image ls => "list all images"
 * docker images -q => "return only image id"
 * docker history ImageID 
 * docker pull "image name" "pull an image from docker hub"
