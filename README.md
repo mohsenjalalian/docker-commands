@@ -14,6 +14,7 @@
 * docker run -p 8080:8080 jenkins "run a container  - p map the port number of the internal Docker image to our main server" 
 * docker run -d --name mohsen_mongo mongo "run a docker in background"
 * docker run -d -v data:/data/db --name m_mongo -p 28001:27017 mongo "run a m_mongo container from mongo image as deamon(- d) with volume(- v) and with bind port(- p)"
+* docker container start -ai ubuntu  => "start a container run bash interactive. default command in ubuntu is bash" 
 * docker logs
 * docker top
 * docker rm "container id" or "container name" => "remove a container"
