@@ -18,6 +18,7 @@
 * docker logs
 * docker top
 * docker port "container name"
+* docker container inspect --format {{.NetworkSettings.IPAddress}} "container name" => "return ip"
 * docker rm "container id" or "container name" => "remove a container"
 * docker --help
 * docker --help "command name"
