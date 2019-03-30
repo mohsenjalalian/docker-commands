@@ -43,6 +43,9 @@
 * docker logs m_mongo "log of a container"
 * docker inspect m_mongo "information container or image"
 * docker network ls "list networks"
+* docker network create "name"
+* docker network connect
+* docker network disconnect
 * docker network inspect bridge "information about bridge network"
 * docker build -t name:tag .=>('current directory search') "create an image from docker file"
 * docker stop => "stop running container"
