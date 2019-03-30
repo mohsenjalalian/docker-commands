@@ -17,6 +17,7 @@
 * docker container start -ai ubuntu  => "start a container run bash interactive. default command in ubuntu is bash" 
 * docker logs
 * docker top
+* docker port "container name"
 * docker rm "container id" or "container name" => "remove a container"
 * docker --help
 * docker --help "command name"
